@@ -1,0 +1,3 @@
+# Express.js Unhandled Error Example
+
+This repository demonstrates a common error in Express.js applications:  unhandled errors within route handlers.  The `bug.js` file shows a route that lacks proper error handling, potentially leading to application crashes or unexpected responses. The solution, shown in `bugSolution.js`, demonstrates how to use try...catch blocks and send appropriate error responses.
